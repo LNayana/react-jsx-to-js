@@ -1,0 +1,17 @@
+{
+  "name": "react-jsx-to-js",
+  "version": "1.0.0",
+  "description": "to learn how react JSX is converted to plain vanilla JavaScript.",
+  "main": "app.js",
+  "author": "LNayana",
+  "license": "MIT",
+  "private": true,
+  "scripts":{
+	  "start":"live-server public",
+	  "prestart":"babel src/app.js --out-file=public/scripts/app.js --presets=env,react"
+  },
+  "dependencies": {
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1"
+  }
+}
